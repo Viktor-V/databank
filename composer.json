@@ -1,0 +1,27 @@
+{
+    "name": "viktor-v/databank",
+    "description": "This is a test project for databank",
+    "authors": [
+        {
+            "name": "Viktor Vipolzov",
+            "email": "viktor.vipolzov@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "DataBank\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DataBank\\Tests\\": "tests/"
+        }
+    }
+}
